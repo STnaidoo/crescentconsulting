@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Crescent Compliance Solutions</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+    rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
+    rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-casual.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top bg-faded py-lg-4">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <img alt="Brand" src="img/logo.jpg" width="42.5" height="60">Crescent Compliance Solutions
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+      </div>
+      <div class="navbar-links">
+        <ul class="nav navbar-nav" style="text-align:center">
+          <li class="nav-item active px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                              <span class="sr-only">(current)</span>
+                            </a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="contentContainer">
+
+    <div class="bg-faded p-4 my-4">
+      <hr class="divider">
+      <h2 class="text-center text-lg text-uppercase my-0">Contact
+        <strong>Crescent Compliance</strong>
+      </h2>
+      <hr class="divider">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.6617939768175!2d28.077227314780654!3d-26.17514188345079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950dc600a6abf1%3A0x1637ac5306680d3f!2s97+Mons+Rd%2C+Observatory%2C+Johannesburg%2C+2187!5e0!3m2!1sen!2sza!4v1505307261339 "></iframe>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <h5 class="mb-0">Phone:</h5>
+          <div class="mb-4">079 491 7425</div>
+          <h5 class="mb-0">Email:</h5>
+          <div class="mb-4">
+            <a href="mailto:name@example.com">kashnie@crescentcompliance.co.za</a>
+          </div>
+          <h5 class="mb-0">Address:</h5>
+          <div class="mb-4">
+            97 Mons Avenue
+            <br> Observatory, Johannesburg
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-faded p-4 my-4">
+      <hr class="divider">
+      <h2 class="text-center text-lg text-uppercase my-0">Contact
+        <strong>Form</strong>
+      </h2>
+      <hr class="divider">
+      <form action="https://formspree.io/kashnie@crescentcompliance.co.za" method="POST">
+        <div class="row">
+          <div class="form-group col-lg-4">
+            <label class="text-heading">Name</label>
+            <input type="text" class="form-control" name="Name">
+          </div>
+          <div class="form-group col-lg-4">
+            <label class="text-heading">Email Address</label>
+            <input type="email" class="form-control" name="Reply To">
+          </div>
+          <div class="form-group col-lg-4">
+            <label class="text-heading">Phone Number</label>
+            <input type="tel" class="form-control" name="Phone Number">
+          </div>
+          <div class="clearfix"></div>
+          <div class="form-group col-lg-12">
+            <label class="text-heading">Message</label>
+            <textarea class="form-control" rows="6" name="Body" style="overflow:auto;"></textarea>
+          </div>
+          <div class="form-group col-lg-12">
+            <button type="submit" value="Send"s class="btn btn-secondary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <footer class="bg-faded text-center py-5 ">
+    <div class="container ">
+      <p class="m-0 ">Copyright &copy; Crescent Compliance 2017</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js "></script>
+  <script src="vendor/popper/popper.min.js "></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js "></script>
+
+  <!-- Zoom when clicked function for Google Map -->
+  <script>
+    $('.map-container').click(function () {
+      $(this).find('iframe').addClass('clicked')
+    }).mouseleave(function () {
+      $(this).find('iframe').removeClass('clicked')
+    });
+  </script>
+  <script>
+    $(function () {
+      $('#nav li a').click(function () {
+        $('#nav li').removeClass();
+        $($(this).attr('href')).addClass('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
